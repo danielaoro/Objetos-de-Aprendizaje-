@@ -1,0 +1,24 @@
+@media (max-width: 991px)
+{
+    .principal
+    {
+        grid-template-columns: repeat(auto-fill, minmax(50%, 1fr));
+        grid-template-rows: minmax(auto, auto);
+    }
+    .principal .box
+    {
+        grid-column: unset;
+        grid-row: unset;
+    }
+}
+
+
+
+
+
+
+@media screen and (max-width: 400px){
+    .contenedor{
+        width: 100%;
+    }
+}
